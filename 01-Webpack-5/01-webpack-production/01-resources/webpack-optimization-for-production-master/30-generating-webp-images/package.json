@@ -1,0 +1,46 @@
+{
+  "name": "webpack-optimization-for-production",
+  "version": "1.0.0",
+  "description": "Github Repository for the course: Webpack 5 in 2022: Optimizing For Production",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.prod.config.js",
+    "dev": "webpack serve --config webpack/webpack.dev.config.js --hot"
+  },
+  "keywords": [],
+  "author": "Viktor Pyskunov",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "image-minimizer-webpack-plugin": "^4.1.0",
+    "imagemin": "^9.0.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^8.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-pngquant": "^10.0.0",
+    "imagemin-svgo": "^11.0.1",
+    "imagemin-webp": "^8.0.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "postcss-loader": "^8.1.1",
+    "purgecss-webpack-plugin": "^6.0.0",
+    "sass": "^1.80.6",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.11.0",
+    "bootstrap": "^5.3.3"
+  }
+}
